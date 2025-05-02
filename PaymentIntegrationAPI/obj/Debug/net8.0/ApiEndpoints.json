@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "PaymentIntegrationAPI.Controllers.PaymentController",
+    "Method": "SaveBillingInfo",
+    "RelativePath": "api/Payment/billing-info",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "info",
+        "Type": "PaymentIntegrationAPI.Models.BillingInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentIntegrationAPI.Controllers.PaymentController",
+    "Method": "Checkout",
+    "RelativePath": "api/Payment/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "payment_integration.Models.CheckoutRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentIntegrationAPI.Controllers.PaymentController",
+    "Method": "CreateStripeSession",
+    "RelativePath": "api/Payment/create-stripe-session",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentIntegrationAPI.Controllers.PaymentController",
+    "Method": "GetProducts",
+    "RelativePath": "api/Payment/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentIntegrationAPI.Controllers.PaymentConfigController",
+    "Method": "GetPayPalClientId",
+    "RelativePath": "api/PaymentConfig/paypal-client-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaymentIntegrationAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PaymentIntegrationAPI.WeatherForecast, PaymentIntegrationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

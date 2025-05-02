@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "E4xZZzbAZM7Lr/Cr2E1vMrNAFwsPkLFpzyQtRv+3INs=",
+  "Source": "PaymentIntegrationAPI",
+  "BasePath": "_content/PaymentIntegrationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
